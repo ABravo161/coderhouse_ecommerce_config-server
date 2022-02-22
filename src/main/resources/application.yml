@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: coderhouse_ecommerce_config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ABravo161/coderhouse_ecommerce_config-properties.git
+server:
+  port: 8888
